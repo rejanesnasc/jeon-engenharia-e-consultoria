@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre Nós",
+    "services": "Nossas Soluções",
+    "events": "Eventos Técnicos",
+    "contact": "Fale Conosco",
+    "requestProposal": "Solicitar Proposta Técnica",
+    "mainNavAria": "Navegação Principal"
+  },
+  "hero": {
+    "badge": "Consultoria em Engenharia Elétrica",
+    "titleLine1": "JEON",
+    "titleLine2": "Engenharia e Consultoria",
+    "subtitle": "Engenharia, Diagnóstico e Confiabilidade de Ativos de Transmissão",
+    "ctaExplore": "Conhecer Soluções",
+    "ctaContact": "Fale com um Especialista",
+    "imageAlt": "Linhas de transmissão de alta tensão ao pôr do sol - JEON Consultoria em Engenharia"
+  },
+  "about": {
+    "badge": "Sobre Nossa Consultoria",
+    "title": "Sobre Nós",
+    "subtitle": "Excelência técnica em todo o ciclo de vida da infraestrutura de potência",
+    "description": "A JEON é uma consultoria sênior e independente dedicada à engenharia, diagnóstico e confiabilidade de ativos de transmissão de alta e extra alta tensão. Atuamos ao lado de concessionárias, investidores e fundos de investimento para garantir a máxima confiabilidade, conformidade e rentabilidade em linhas de transmissão e subestações.",
+    "secondaryText": "Unimos rigor normativo internacional (IEC, IEEE, CIGRÉ, ISO 55001) a uma sólida vivência prática no ciclo de vida da infraestrutura. Para nós, a engenharia de precisão é o pilar central para a preservação patrimonial, mitigação de riscos operacionais e garantia de retorno dos seus investimentos.",
+    "thirdText": "Nossa inteligência consultiva aumenta a confiabilidade do sistema e otimiza a gestão do ativo, reduzindo drasticamente o impacto de multas regulatórias e indisponibilidades operacionais.",
+    "stats": {
+      "metric1": {
+        "value": "12.000+ km",
+        "label": "Linhas Auditadas"
+      },
+      "metric2": {
+        "value": "45+",
+        "label": "Subestações Avaliadas"
+      },
+      "metric3": {
+        "value": "ISO 55001",
+        "label": "Governança de Ativos"
+      },
+      "metric4": {
+        "value": "0",
+        "label": "Falhas Críticas Não Previstas"
+      }
+    },
+    "photo1Alt": "Engenheiros em inspeção técnica de subestação de alta tensão",
+    "photo2Alt": "Diretora executiva de engenharia alinhando projeto de transmissão"
+  },
+  "services": {
+    "badge": "Áreas de Atuação",
+    "title": "Nossas Soluções",
+    "subtitle": "Engenharia consultiva de alta precisão para concessionárias, investidores e operadores do setor elétrico",
+    "viewDetails": "Ver Detalhes Técnicos",
+    "modal": {
+      "badge": "Consultoria Especializada",
+      "standardsTitle": "Normas & Metodologias Técnicas:",
+      "deliverablesTitle": "Principais Entregáveis & Escopo Técnico:",
+      "requestProposal": "Solicitar Proposta para este Escopo",
+      "close": "Fechar",
+      "closeAria": "Fechar Modal"
+    },
+    "items": {
+      "asset_management": {
+        "title": "Gestão Estratégica e Saúde Operacional",
+        "shortDesc": "Diagnósticos avançados, análise de falhas e diretrizes de conservação para Linhas e Subestações sob a norma ISO 55001.",
+        "fullDesc": "Avaliação profunda da integridade física e operacional do sistema. Aplicamos metodologias de análise de causas de falhas e governança de O&M para prolongar a vida útil dos ativos e evitar indisponibilidades regulatórias.",
+        "standards": [
+          "ISO 55001",
+          "RCM (Manutenção Centrada em Confiabilidade)",
+          "FMEA / RCA"
+        ],
+        "deliverables": [
+          "Desenvolvimento de Planos Estratégicos de Gestão de Ativos (PEGA)",
+          "Modelagem de curvas de degradação e cálculo de Índice de Saúde (AHI)",
+          "Análise de causa raiz (RCA) com pareceres periciais independentes",
+          "Treinamentos in-company e capacitação continuada para equipes de O&M"
+        ]
+      },
+      "owners_engineering": {
+        "title": "Auditoria Técnica & Engenharia do Proprietário",
+        "shortDesc": "Análise e validação independente de projetos básicos e executivos.",
+        "fullDesc": "Blindagem técnica para o investidor e concessionária. Auditamos projetos de linhas e subestações antes e durante a implantação, com foco no alinhamento às normas vigentes, na otimização do CAPEX e na mitigação de riscos de engenharia.",
+        "standards": [
+          "PLS-CADD",
+          "IEEE 80 / IEEE 1313",
+          "IEC 60071"
+        ],
+        "deliverables": [
+          "Verificação independente de projetos eletromecânicos e civis de torres",
+          "Auditoria de coordenadas topográficas e cruzamentos em PLS-CADD",
+          "Validação de malhas de aterramento e coordenação de isolamento",
+          "Supervisão técnica de campo para cumprimento de marcos regulatórios"
+        ]
+      },
+      "fat_inspection": {
+        "title": "Inspeção e Acompanhamento de TAF",
+        "shortDesc": "Acompanhamento especializado e independente em ensaios de tipo, rotina e recepção de componentes de transmissão no Brasil e exterior.",
+        "fullDesc": "Atuamos em laboratórios e fabricantes globais, assegurando a conformidade técnica de equipamentos primários e componentes de transmissão antes da entrega, mitigando falhas prematuras e atrasos no comissionamento.",
+        "standards": [
+          "IEC 62271",
+          "IEEE C37",
+          "CIGRÉ TB Guides"
+        ],
+        "deliverables": [
+          "Inspeção presencial independente em fabricantes globais e nacionais",
+          "Testes de rotina e tipo em disjuntores, transformadores de instrumentos e chaves",
+          "Ensaios mecânicos e elétricos em cadeias de isoladores e condutores",
+          "Emissão de relatórios técnicos de não-conformidade e liberação segura"
+        ]
+      },
+      "due_diligence": {
+        "title": "Due Diligence Técnica e M&A",
+        "shortDesc": "Avaliação técnica aprofundada, identificação de passivos ocultos e propostas de melhoria.",
+        "fullDesc": "Inteligência estratégica para fundos de investimento e compradores. Realizamos auditorias físicas e documentais em portfólios de transmissão para mapear riscos operacionais, identificar passivos ocultos e dimensionar as demandas técnicas reais de CAPEX e OPEX, alinhando as necessidades de manutenção e substituição ao ciclo de vida útil dos ativos.",
+        "standards": [
+          "Valoração Regulatória",
+          "Due Diligence Técnica",
+          "Auditoria de CAPEX/OPEX"
+        ],
+        "deliverables": [
+          "Inspeção física amostral de subestações e vãos de linhas de transmissão",
+          "Auditoria de histórico de falhas e índices de indisponibilidade regulatória",
+          "Identificação de passivos técnicos e ambientais ocultos",
+          "Modelagem financeira de curvas futuras de reinvestimento (CAPEX) e manutenção (OPEX)"
+        ]
+      }
+    },
+    "viewDetailsAria": "Ver detalhes de {{service}}"
+  },
+  "events": {
+    "badge": "Capacitação Técnica & Conexão",
+    "title": "Próximos Eventos",
+    "subtitle": "Programas executivos e técnicos desenvolvidos para qualificar concessionárias e profissionais do setor elétrico.",
+    "annualBadge": "Evento Técnico Anual do Setor Elétrico",
+    "register": "Inscrever-se",
+    "registered": "Inscrição Realizada",
+    "eventDetails": "Ver Detalhes do Evento",
+    "modal": {
+      "submitting": "Confirmando...",
+      "submit": "Confirmar Inscrição Gratuita",
+      "cancel": "Cancelar",
+      "closeAria": "Fechar Modal"
+    },
+    "items": [
+      {
+        "id": "event-1",
+        "title": "Confiabilidade em Linhas de Transmissão",
+        "category": "Evento Técnico Anual do Setor Elétrico",
+        "date": "1 de Janeiro de 2030, 09:00 - 17:00",
+        "location": "Auditório Principal A, Centro de Convenções",
+        "description": "Imersão técnica sobre implementação prática de rotinas ISO 55001, engenharia de manutenção baseada em condição e mitigação de multas de indisponibilidade no Sistema Interligado Nacional.",
+        "instructor": "Dr. Carlos Eduardo Sterriton, Eng. Eletricista PhD",
+        "instructorRole": "Especialista em Ativos de Alta Tensão",
+        "seatsTotal": 120,
+        "seatsLeft": 18
+      },
+      {
+        "id": "event-2",
+        "title": "Ensaios FAT e Normas CIGRÉ",
+        "category": "Evento Técnico Anual do Setor Elétrico",
+        "date": "1 de Janeiro de 2030, 09:00 - 17:00",
+        "location": "Auditório Principal A, Centro de Convenções",
+        "description": "Workshop intensivo sobre inspeção em fábricas, critérios de aceitação de disjuntores e transformadores conforme normas IEC e recomendações CIGRÉ, com estudos de casos reais de falhas evitadas.",
+        "instructor": "Engª. Mariana Albuquerque, MSc",
+        "instructorRole": "Coordenadora de Garantia de Qualidade FAT",
+        "seatsTotal": 80,
+        "seatsLeft": 9
+      },
+      {
+        "id": "event-3",
+        "title": "Due Diligence Técnica & M&A em Energia",
+        "category": "Evento Técnico Anual do Setor Elétrico",
+        "date": "1 de Janeiro de 2030, 09:00 - 17:00",
+        "location": "Auditório Principal A, Centro de Convenções",
+        "description": "Mesa redonda executiva reunindo investidores, concessionárias e fundos de infraestrutura para debater valoração de ativos de transmissão, passivos ocultos e projeções assertivas de CAPEX.",
+        "instructor": "Eng. Roberto Vianna",
+        "instructorRole": "Diretor de Engenharia do Proprietário e M&A",
+        "seatsTotal": 60,
+        "seatsLeft": 4
+      }
+    ],
+    "successNotification": "Sua vaga para \"{{eventName}}\" foi confirmada com sucesso. Os detalhes foram enviados ao seu e-mail."
+  },
+  "cta": {
+    "headline": "Eleve a confiabilidade e a segurança dos seus ativos",
+    "subheadline": "Mitigue riscos operacionais, proteja o valor patrimonial e garanta conformidade normativa com a nossa inteligência consultiva em alta e extra alta tensão.",
+    "button": "Solicitar Diagnóstico Preliminar",
+    "imageAlt": "Transmissão de alta tensão e engenharia consultiva"
+  },
+  "contact": {
+    "badge": "Canais Diretos de Engenharia",
+    "title": "Fale Conosco",
+    "subtitle": "Converse diretamente com nosso corpo técnico e descubra como otimizar seus ativos de transmissão.",
+    "addressTitle": "Endereço",
+    "addressText": "Rua João Samara, 1385,São João Batista, Belo Horizonte, MG, Brasil, 31515-393",
+    "emailTitle": "E-mail",
+    "emailText": "contato.jeon@outlook.com",
+    "phoneTitle": "Telefone",
+    "phoneText": "(21) 97152-7743",
+    "form": {
+      "title": "Solicitar Proposta ou Atendimento Técnico",
+      "name": "Seu Nome Completo",
+      "namePlaceholder": "Dr. Fernando Silveira",
+      "company": "Empresa / Concessionária",
+      "companyPlaceholder": "Empresa de Transmissão",
+      "email": "E-mail Corporativo",
+      "emailPlaceholder": "fernando@transmissao.com",
+      "phone": "Telefone / WhatsApp",
+      "phonePlaceholder": "(11) 98765-4321",
+      "service": "Serviço de Interesse",
+      "servicePlaceholder": "Selecione uma especialidade...",
+      "services": {
+        "asset_management": "Gestão Estratégica e Saúde Operacional",
+        "owners_engineering": "Auditoria Técnica e Eng. do Proprietário",
+        "fat_inspection": "Inspeção de Fábrica e Garantia FAT",
+        "due_diligence": "Due Diligence Técnica e M&A"
+      },
+      "message": "Descreva a demanda ou o escopo do projeto",
+      "messagePlaceholder": "Informe a tensão da linha/subestação (ex: 230kV / 500kV), extensão e prazo...",
+      "submit": "Enviar Solicitação Técnica",
+      "sending": "Enviando dados...",
+      "reset": "Enviar Nova Mensagem",
+      "successTitle": "Solicitação Enviada com Sucesso!",
+      "successMessage": "Nossa equipe de engenharia entrará em contato em até 24 horas úteis."
+    },
+    "portrait1Alt": "Consultora sênior de engenharia de transmissão",
+    "portrait2Alt": "Engenheira especialista em coordenação de projetos e subestações"
+  },
+  "footer": {
+    "brandTagline": "Consultoria de Alta Tensão & Gestão de Ativos de Transmissão",
+    "description": "Referência em engenharia consultiva, saúde operacional, auditoria técnica e due diligence para linhas de transmissão e subestações.",
+    "quickLinks": "Navegação",
+    "legal": "Conecte-se conosco",
+    "copyright": "© 2026 JEON Engenharia em Consultoria. Todos os direitos reservados.",
+    "certPractice": "Prática Alinhada à ISO 55001",
+    "cigreMember": "Membro Técnico CIGRÉ"
+  },
+  "common": {
+    "closeNotification": "Fechar notificação",
+    "toggleLanguage": "Alternar idioma",
+    "switchToEn": "Mudar para Inglês",
+    "switchToPt": "Mudar para Português"
+  },
+  "seo": {
+    "title": "JEON Engenharia | Consultoria em Ativos de Transmissão de Alta Tensão",
+    "description": "Consultoria técnica especializada no ciclo de vida de linhas de transmissão e subestações de alta e extra alta tensão. ISO 55001, Auditoria de Projetos, FAT e Due Diligence M&A."
+  }
+}

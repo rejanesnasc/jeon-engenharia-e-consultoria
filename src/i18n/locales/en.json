@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "What We Offer",
+    "events": "Technical Events",
+    "contact": "Get in Touch",
+    "requestProposal": "Request Technical Proposal",
+    "mainNavAria": "Main Navigation"
+  },
+  "hero": {
+    "badge": "Power Systems Engineering Consulting",
+    "titleLine1": "JEON",
+    "titleLine2": "Engineering and Consulting",
+    "subtitle": "Transmission Asset Engineering, Diagnostics & Reliability",
+    "ctaExplore": "Explore Solutions",
+    "ctaContact": "Speak with an Expert",
+    "imageAlt": "High-voltage power transmission lines at sunset - JEON Engineering Consulting"
+  },
+  "about": {
+    "badge": "About Our Practice",
+    "title": "About Us",
+    "subtitle": "Technical excellence across the entire lifecycle of power transmission infrastructure",
+    "description": "JEON is a senior, independent consultancy dedicated to reliability engineering, advanced diagnostics, and technical advisory for high and extra-high voltage transmission assets. We partner with utilities, private investors, and investment funds to foster maximum system reliability, regulatory compliance, and asset profitability across transmission lines and substations.",
+    "secondaryText": "We combine international normative rigor (IEC, IEEE, CIGRÉ, ISO 55001) with extensive hands-on experience throughout the infrastructure lifecycle. For us, precision engineering is the cornerstone of asset preservation, operational risk mitigation, and investment return protection.",
+    "thirdText": "Our advisory intelligence enhances grid reliability and optimizes asset management drastically reducing the impact of regulatory fines and operational outages.",
+    "stats": {
+      "metric1": {
+        "value": "12,000+ km",
+        "label": "Lines Audited"
+      },
+      "metric2": {
+        "value": "45+",
+        "label": "Substations Assessed"
+      },
+      "metric3": {
+        "value": "ISO 55001",
+        "label": "Asset Governance"
+      },
+      "metric4": {
+        "value": "0",
+        "label": "Unforeseen Critical Failures"
+      }
+    },
+    "photo1Alt": "Engineers during technical inspection of high-voltage substation",
+    "photo2Alt": "Executive engineering director leading power transmission project"
+  },
+  "services": {
+    "badge": "Core Practice Areas",
+    "title": "What We Offer",
+    "subtitle": "High-precision engineering consulting for electric utilities, infrastructure funds, and transmission operators",
+    "viewDetails": "View Technical Details",
+    "modal": {
+      "badge": "Specialized Consulting",
+      "standardsTitle": "Technical Standards & Methodologies:",
+      "deliverablesTitle": "Key Deliverables & Technical Scope:",
+      "requestProposal": "Request Proposal for this Scope",
+      "close": "Close",
+      "closeAria": "Close Modal"
+    },
+    "items": {
+      "asset_management": {
+        "title": "Reliability Engineering & Asset Health",
+        "shortDesc": "Advanced diagnostics, failure analysis, and asset preservation guidelines for Transmission Lines and Substations under ISO 55001 standards.",
+        "fullDesc": "In-depth assessment of physical and operational asset integrity. We apply Root Cause Analysis (RCA) methodologies and O&M governance to extend asset lifecycle, optimize performance, and prevent regulatory outages.",
+        "standards": [
+          "ISO 55001",
+          "RCM (Reliability-Centered Maintenance)",
+          "FMEA / RCA"
+        ],
+        "deliverables": [
+          "Development of Strategic Asset Management Plans (SAMP)",
+          "Asset health index (AHI) calculation and degradation curve modeling",
+          "Root Cause Analysis (RCA) backed by independent expert witness reports",
+          "In-company training and specialized continuous education for O&M teams"
+        ]
+      },
+      "owners_engineering": {
+        "title": "Technical Auditing & Owner’s Engineering",
+        "shortDesc": "Independent analysis and review of basic and detailed engineering designs.",
+        "fullDesc": "Technical protection for investors and utilities. We audit transmission line and substation designs prior to and during implementation, promoting strict regulatory compliance, CAPEX optimization, and engineering risk mitigation.",
+        "standards": [
+          "PLS-CADD",
+          "IEEE 80 / IEEE 1313",
+          "IEC 60071"
+        ],
+        "deliverables": [
+          "Independent review of electromechanical and civil tower foundation designs",
+          "Audit of topographic survey coordinates and power line clearances in PLS-CADD",
+          "Validation of grounding grid design and insulation coordination margins",
+          "Field technical supervision to guarantee compliance with regulatory milestones"
+        ]
+      },
+      "fat_inspection": {
+        "title": "FAT Inspection & Technical Witnessing",
+        "shortDesc": "Specialized and independent witnessing of type, routine, and acceptance tests for transmission components in domestic and international laboratories.",
+        "fullDesc": "On-site and remote presence in global laboratories and manufacturing facilities. We audit test procedures and assess the technical compliance of primary equipment and transmission line components prior to delivery, mitigating premature failures and commissioning delays.",
+        "standards": [
+          "IEC 62271",
+          "IEEE C37",
+          "CIGRÉ TB Guides"
+        ],
+        "deliverables": [
+          "On-site independent inspections at global and domestic equipment manufacturers",
+          "Witnessing routine and type tests on high-voltage circuit breakers, CT/VTs, and disconnectors",
+          "Mechanical and electrical dielectric testing on insulator strings and conductors",
+          "Formal non-conformance reporting and secure green-light release certificates"
+        ]
+      },
+      "due_diligence": {
+        "title": "Technical Due Diligence & M&A",
+        "shortDesc": "Comprehensive technical assessment, hidden liability identification, and strategic improvement proposals.",
+        "fullDesc": "Strategic intelligence for investment funds and asset buyers. We conduct physical and documentary audits across transmission portfolios to quantify operational risks, uncover hidden liabilities, and forecast realistic future investment requirements (CAPEX/OPEX).",
+        "standards": [
+          "Regulatory Valuation",
+          "Technical Due Diligence",
+          "CAPEX/OPEX Auditing"
+        ],
+        "deliverables": [
+          "Sample physical inspections of substations and transmission line corridors",
+          "Historical failure audit and regulatory availability factor verification",
+          "Identification of hidden technical, environmental, and right-of-way liabilities",
+          "Financial modeling of future reinvestment curves (CAPEX) and maintenance budgets (OPEX)"
+        ]
+      }
+    },
+    "viewDetailsAria": "View details for {{service}}"
+  },
+  "events": {
+    "badge": "Technical Training & Connection",
+    "title": "Our Upcoming Events",
+    "subtitle": "Executive programs and technical seminars developed to upskill utility teams and power sector leaders.",
+    "annualBadge": "An Annual National Industry Event",
+    "register": "Register Now",
+    "registered": "Registered",
+    "eventDetails": "View Event Details",
+    "modal": {
+      "submitting": "Confirming...",
+      "submit": "Confirm Free Registration",
+      "cancel": "Cancel",
+      "closeAria": "Close Modal"
+    },
+    "items": [
+      {
+        "id": "event-1",
+        "title": "Power Line Reliability & Health",
+        "category": "An Annual National Industry Event",
+        "date": "January 1, 2030, 9:00 AM - 5:00 PM",
+        "location": "Conference Hall A, National Event Hall",
+        "description": "Technical immersion on practical implementation of ISO 55001 routines, condition-based maintenance engineering, and mitigating grid downtime penalties in interconnected power systems.",
+        "instructor": "Dr. Carlos Eduardo Sterriton, PhD, PE",
+        "instructorRole": "High-Voltage Asset Principal Specialist",
+        "seatsTotal": 120,
+        "seatsLeft": 18
+      },
+      {
+        "id": "event-2",
+        "title": "FAT Inspection & CIGRÉ Standards",
+        "category": "An Annual National Industry Event",
+        "date": "January 1, 2030, 9:00 AM - 5:00 PM",
+        "location": "Conference Hall A, National Event Hall",
+        "description": "Intensive workshop on factory inspections, acceptance criteria for circuit breakers and transformers under IEC standards and CIGRÉ guidelines, with real-world case studies of prevented catastrophic failures.",
+        "instructor": "Mariana Albuquerque, MSc",
+        "instructorRole": "FAT Quality Assurance Lead",
+        "seatsTotal": 80,
+        "seatsLeft": 9
+      },
+      {
+        "id": "event-3",
+        "title": "Technical Due Diligence & M&A Advisory",
+        "category": "An Annual National Industry Event",
+        "date": "January 1, 2030, 9:00 AM - 5:00 PM",
+        "location": "Conference Hall A, National Event Hall",
+        "description": "Executive roundtable bringing together infrastructure investors, power utilities, and lenders to discuss transmission asset valuation, hidden liabilities, and realistic CAPEX modeling.",
+        "instructor": "Roberto Vianna, PE",
+        "instructorRole": "Director of Owner's Engineering & M&A Advisory",
+        "seatsTotal": 60,
+        "seatsLeft": 4
+      }
+    ],
+    "successNotification": "Your registration for \"{{eventName}}\" has been confirmed. Details have been sent to your email."
+  },
+  "cta": {
+    "headline": "Enhance the reliability and performance of your transmission assets.",
+    "subheadline": "Mitigate operational risks, safeguard capital value, and ensure strict compliance with our senior advisory in high and extra-high voltage engineering.",
+    "button": "Request Preliminary Diagnostic",
+    "imageAlt": "High-voltage power transmission and consulting engineering"
+  },
+  "contact": {
+    "badge": "Direct Engineering Channels",
+    "title": "Get in Touch",
+    "subtitle": "Speak directly with our senior consulting team to analyze your infrastructure's specific challenges.",
+    "addressTitle": "Mailing Address",
+    "addressText": "1385 João Samara Street, São João Batista, Belo Horizonte, MG, Brazil 31515-393",
+    "emailTitle": "Email Address",
+    "emailText": "contato.jeon@outlook.com",
+    "phoneTitle": "Phone Number",
+    "phoneText": "+55 (21) 97152-7743",
+    "form": {
+      "title": "Request Technical Proposal or Inquiry",
+      "name": "Full Name",
+      "namePlaceholder": "Dr. Fernando Silveira",
+      "company": "Company / Utility",
+      "companyPlaceholder": "Transmission Utility / Energy Company",
+      "email": "Corporate Email",
+      "emailPlaceholder": "fernando@transmission.com",
+      "phone": "Phone / Mobile",
+      "phonePlaceholder": "+55 (21) 98765-4321",
+      "service": "Service of Interest",
+      "servicePlaceholder": "Select a specialty...",
+      "services": {
+        "asset_management": "Strategic Asset Management & Operational Health",
+        "owners_engineering": "Technical Audit & Owner's Engineering",
+        "fat_inspection": "Factory Inspection & Quality Assurance FAT",
+        "due_diligence": "Technical Due Diligence & M&A"
+      },
+      "message": "Describe your project scope or engineering demand",
+      "messagePlaceholder": "Specify line/substation voltage (e.g., 230kV / 500kV), length, and timeline...",
+      "submit": "Submit Technical Request",
+      "sending": "Submitting details...",
+      "reset": "Send Another Message",
+      "successTitle": "Request Received Successfully!",
+      "successMessage": "Our senior engineering team will respond within 24 business hours."
+    },
+    "portrait1Alt": "Senior transmission engineering consultant",
+    "portrait2Alt": "Project coordination and substation lead engineer"
+  },
+  "footer": {
+    "brandTagline": "High-Voltage Power Consulting & Transmission Asset Management",
+    "description": "Excellence in consulting engineering, operational health, technical audit, and M&A due diligence for power lines and substations.",
+    "quickLinks": "Navigation",
+    "legal": "Connect with us",
+    "copyright": "© 2026 JEON Engineering & Consulting. All rights reserved.",
+    "certPractice": "ISO 55001 Certified Practice",
+    "cigreMember": "CIGRÉ Technical Member"
+  },
+  "common": {
+    "closeNotification": "Close notification",
+    "toggleLanguage": "Switch language",
+    "switchToEn": "Switch to English",
+    "switchToPt": "Switch to Portuguese"
+  },
+  "seo": {
+    "title": "JEON Engineering | High-Voltage Transmission Asset Consulting",
+    "description": "Specialized technical consulting across the lifecycle of high and extra-high voltage transmission lines and substations. ISO 55001, Design Audit, FAT, and M&A Due Diligence."
+  }
+}
