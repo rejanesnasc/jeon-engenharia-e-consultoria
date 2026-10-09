@@ -12,6 +12,7 @@ export interface ServiceItem {
 }
 
 export interface EventItem {
+  speaker: ReactI18NextChildren | Iterable<ReactI18NextChildren>;
   id: string;
   title: string;
   category: string;

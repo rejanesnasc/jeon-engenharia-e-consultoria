@@ -35,10 +35,10 @@ export const EventsSection: React.FC<EventsSectionProps> = ({ onNotify }) => {
         <div className="events-grid">
           {/* Left Column: Heading */}
           <div className="events-title-col">
-            <div className="badge-tag">
+            {/* <div className="badge-tag">
               <Calendar size={14} />
               <span>{t('events.badge')}</span>
-            </div>
+            </div> */}
             <h2 className="section-heading">
               {t('events.title')}
             </h2>
@@ -49,7 +49,8 @@ export const EventsSection: React.FC<EventsSectionProps> = ({ onNotify }) => {
 
           {/* Right Column: Events List matching Prototype structure */}
           <div className="events-list">
-            {events.map((ev) => {
+            {/* ADICIONADO: .filter() para pegar apenas o event-1 */}
+            {events.filter((ev) => ev.id === 'event-1').map((ev) => {
               const isRegistered = registeredIds.includes(ev.id);
 
               return (
@@ -73,17 +74,38 @@ export const EventsSection: React.FC<EventsSectionProps> = ({ onNotify }) => {
 
                   <p className="event-desc">{ev.description}</p>
 
+                  {(ev.instructor || ev.seatsTotal) && (
+                    <div className="event-extra-info" style={{ fontSize: '0.9rem', color: '#3f3f46' }}>
+                      {ev.instructor && (
+                        <p style={{ margin: '4px 0' }}>
+                          <strong>{ev.speaker}</strong> {ev.instructor}
+                          {ev.instructorRole && (
+                            <span style={{ color: '#71717a' }}> - {ev.instructorRole}</span>
+                          )}
+                        </p>
+                      )}
+                    </div>
+                  )}
                   <div className="event-actions">
                     {isRegistered ? (
-                      <button className="btn" style={{ background: '#ecfdf5', color: '#059669', cursor: 'default' }}>
+                      <button className="btn" style={{ background:'#ecfdf5', color: '#059669', cursor: 'default' }}>
                         <CheckCircle2 size={16} />
                         <span>{t('events.registered')}</span>
                       </button>
                     ) : (
-                      <button
+                      <button 
                         onClick={() => handleOpenRsvp(ev)}
                         className="btn btn-dark"
-                        style={{ padding: '9px 20px', fontSize: '0.875rem' }}
+                        style={{ 
+                          marginTop: '15px',
+                          padding: '9px 20px', 
+                          fontSize: '0.875rem', 
+                          display: 'inline-flex', 
+                          alignItems: 'center', 
+                          gap: '8px',
+                          border: 'none',
+                          cursor: 'pointer'
+                        }}
                       >
                         <span>{t('events.register')}</span>
                         <ArrowRight size={15} />

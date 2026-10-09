@@ -3,7 +3,7 @@ import { Navbar } from './components/layout/Navbar';
 import { HeroSection } from './components/sections/HeroSection';
 import { AboutSection } from './components/sections/AboutSection';
 import { ServicesSection } from './components/sections/ServicesSection';
-// import { EventsSection } from './components/sections/EventsSection';
+import { EventsSection } from './components/sections/EventsSection';
 import { CtaBannerSection } from './components/sections/CtaBannerSection';
 import { ContactSection } from './components/sections/ContactSection';
 import { Footer } from './components/layout/Footer';
@@ -39,9 +39,7 @@ export const App: React.FC = () => {
         <HeroSection />
         <AboutSection />
         <ServicesSection onSelectServiceForProposal={handleSelectServiceForProposal} />
-        {/* Ocultado temporariamente para uso futuro:
         <EventsSection onNotify={(title, message) => addToast(title, message, 'success')} />
-        */}
         <CtaBannerSection />
         <ContactSection
           preselectedService={preselectedService}

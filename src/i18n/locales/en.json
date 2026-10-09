@@ -131,7 +131,7 @@
     "title": "Our Upcoming Events",
     "subtitle": "Executive programs and technical seminars developed to upskill utility teams and power sector leaders.",
     "annualBadge": "An Annual National Industry Event",
-    "register": "Register Now",
+    "register": "View Details",
     "registered": "Registered",
     "eventDetails": "View Event Details",
     "modal": {
@@ -145,13 +145,14 @@
         "id": "event-1",
         "title": "Power Line Reliability & Health",
         "category": "An Annual National Industry Event",
-        "date": "January 1, 2030, 9:00 AM - 5:00 PM",
-        "location": "Conference Hall A, National Event Hall",
-        "description": "Technical immersion on practical implementation of ISO 55001 routines, condition-based maintenance engineering, and mitigating grid downtime penalties in interconnected power systems.",
-        "instructor": "Dr. Carlos Eduardo Sterriton, PhD, PE",
-        "instructorRole": "High-Voltage Asset Principal Specialist",
+        "date": "November 1-10, 2027",
+        "location": "Algarve Congress Centre, Marina Vilamoura, Portugal",
+        "description": "Technical presentation at the leading international conference on insulators, surge arresters, bushings, and cables for transmission lines and substations (150+ international presentations).",
+        "instructor": "Eng. Alberto Rodrigues de Sousa",
+        "instructorRole": "Senior Transmission Line Engineer",
         "seatsTotal": 120,
-        "seatsLeft": 18
+        "seatsLeft": 18,
+        "speaker": "Speaker:"
       },
       {
         "id": "event-2",

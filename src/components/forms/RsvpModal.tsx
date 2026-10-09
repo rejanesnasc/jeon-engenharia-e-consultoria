@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, Calendar, MapPin, UserCheck } from 'lucide-react';
+import { X, Calendar, MapPin, UserCheck, ArrowRight } from 'lucide-react';
 import type { EventItem } from '../../types';
+import imagemPalestrante from '../../assets/images/senior_transmission_line.png';
 
 interface RsvpModalProps {
   event: EventItem | null;
@@ -37,10 +38,10 @@ export const RsvpModal: React.FC<RsvpModalProps> = ({ event, onClose, onSuccess 
           <X size={20} />
         </button>
 
-        <div className="badge-tag" style={{ marginBottom: '12px' }}>
+        {/* <div className="badge-tag" style={{ marginBottom: '12px' }}>
           <Calendar size={14} />
           <span>{event.category}</span>
-        </div>
+        </div> */}
 
         <h3 className="section-heading" style={{ fontSize: '1.75rem', marginBottom: '16px' }}>
           {event.title}
@@ -61,68 +62,100 @@ export const RsvpModal: React.FC<RsvpModalProps> = ({ event, onClose, onSuccess 
           {event.description}
         </p>
 
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label className="form-label">{t('contact.form.name')} *</label>
-            <input
-              type="text"
-              required
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="form-input"
-              placeholder="Eng. João Silva"
-            />
-          </div>
-
-          <div className="form-group">
-            <label className="form-label">{t('contact.form.email')} *</label>
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="form-input"
-              placeholder="joao@concessionaria.com.br"
-            />
-          </div>
-
-          <div className="form-group">
-            <label className="form-label">{t('contact.form.company')}</label>
-            <input
-              type="text"
-              value={company}
-              onChange={(e) => setCompany(e.target.value)}
-              className="form-input"
-              placeholder="Transmissora Nacional S.A."
-            />
-          </div>
-
-          <div style={{ display: 'flex', gap: '14px', marginTop: '24px' }}>
-            <button
-              type="submit"
-              disabled={loading}
+        {/* Verifica se é o event-1 para mostrar a imagem e o link */}
+        {event.id === 'event-1' ? (
+          <div style={{ textAlign: 'center', marginTop: '10px' }}>
+            {/* ATENÇÃO: Substitua o src abaixo pelo caminho real da sua imagem */}
+            <img 
+            src={imagemPalestrante} 
+            alt="Palestrante Alberto Sousa" 
+            style={{ maxWidth: '100%', borderRadius: '8px', marginBottom: '20px' }}
+            />   
+            <a
+              href="https://www.inmrworldcongress.com/speaker/sousa-alberto/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-dark"
-              style={{ flex: 1 }}
+              style={{
+                padding: '12px 20px',
+                fontSize: '1rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                textDecoration: 'none',
+                width: '100%'
+              }}
             >
-              {loading ? (
-                <span>{t('events.modal.submitting')}</span>
-              ) : (
-                <>
-                  <UserCheck size={18} />
-                  <span>{t('events.modal.submit')}</span>
-                </>
-              )}
-            </button>
-            <button
-              type="button"
-              onClick={onClose}
-              className="btn btn-outline"
-              style={{ color: 'var(--text-primary)', borderColor: 'var(--border-light)' }}
-            >
-              <span>{t('events.modal.cancel')}</span>
-            </button>
+              <span>{t('events.register') || 'Acessar página do Palestrante'}</span>
+              <ArrowRight size={18} />
+            </a>
           </div>
-        </form>
+        ) : (
+          /* Formulário padrão para os demais eventos */
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label className="form-label">{t('contact.form.name')} *</label>
+              <input
+                type="text"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="form-input"
+                placeholder="Eng. João Silva"
+              />
+            </div>
+
+            <div className="form-group">
+              <label className="form-label">{t('contact.form.email')} *</label>
+              <input
+                type="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="form-input"
+                placeholder="joao@concessionaria.com.br"
+              />
+            </div>
+
+            <div className="form-group">
+              <label className="form-label">{t('contact.form.company')}</label>
+              <input
+                type="text"
+                value={company}
+                onChange={(e) => setCompany(e.target.value)}
+                className="form-input"
+                placeholder="Transmissora Nacional S.A."
+              />
+            </div>
+
+            <div style={{ display: 'flex', gap: '14px', marginTop: '24px' }}>
+              <button
+                type="submit"
+                disabled={loading}
+                className="btn btn-dark"
+                style={{ flex: 1 }}
+              >
+                {loading ? (
+                  <span>{t('events.modal.submitting')}</span>
+                ) : (
+                  <>
+                    <UserCheck size={18} />
+                    <span>{t('events.modal.submit')}</span>
+                  </>
+                )}
+              </button>
+              <button
+                type="button"
+                onClick={onClose}
+                className="btn btn-outline"
+                style={{ color: 'var(--text-primary)', borderColor: 'var(--border-light)' }}
+              >
+                <span>{t('events.modal.cancel')}</span>
+              </button>
+            </div>
+          </form>
+        )}
       </div>
     </div>
   );

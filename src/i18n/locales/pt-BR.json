@@ -128,11 +128,11 @@
   },
   "events": {
     "badge": "Capacitação Técnica & Conexão",
-    "title": "Próximos Eventos",
+    "title": "Eventos",
     "subtitle": "Programas executivos e técnicos desenvolvidos para qualificar concessionárias e profissionais do setor elétrico.",
     "annualBadge": "Evento Técnico Anual do Setor Elétrico",
-    "register": "Inscrever-se",
-    "registered": "Inscrição Realizada",
+    "register": "Ver Detalhes",
+    "registered": "Ver Detalhes do Palestrante",
     "eventDetails": "Ver Detalhes do Evento",
     "modal": {
       "submitting": "Confirmando...",
@@ -143,15 +143,16 @@
     "items": [
       {
         "id": "event-1",
-        "title": "Confiabilidade em Linhas de Transmissão",
-        "category": "Evento Técnico Anual do Setor Elétrico",
-        "date": "1 de Janeiro de 2030, 09:00 - 17:00",
-        "location": "Auditório Principal A, Centro de Convenções",
-        "description": "Imersão técnica sobre implementação prática de rotinas ISO 55001, engenharia de manutenção baseada em condição e mitigação de multas de indisponibilidade no Sistema Interligado Nacional.",
-        "instructor": "Dr. Carlos Eduardo Sterriton, Eng. Eletricista PhD",
-        "instructorRole": "Especialista em Ativos de Alta Tensão",
+        "title": "Aplicação de Booster Sheds em Isoladores (in English)",
+        "category": "INMR WORLD CONGRESS",
+        "date": "1 a 10 de Novembro de 2027",
+        "location": "Algarve Congress Centre, Marina Vilamoura, Portugal",
+        "description": "Apresentação técnica no principal congresso internacional sobre isoladores, para-raios, buchas e cabos para linhas de transmissão e subestações (150+ palestras internacionais).",
+        "instructor": "Eng. Alberto Rodrigues de Sousa",
+        "instructorRole": "Engenheiro de Linha de Transmissão Senior",
         "seatsTotal": 120,
-        "seatsLeft": 18
+        "seatsLeft": 18,
+        "speaker": "Palestrante"
       },
       {
         "id": "event-2",
