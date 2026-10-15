@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { SterritonLogo } from '../common/SterritonLogo';
-import { ShieldCheck, Award} from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { t } = useTranslation();

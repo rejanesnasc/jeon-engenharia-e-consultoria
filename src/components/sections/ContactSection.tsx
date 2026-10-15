@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { MessageSquare } from 'lucide-react';
 import { ContactForm } from '../forms/ContactForm';
 
 import portrait1 from '../../assets/images/contact_portrait_1.png';

@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import aboutPhoto1 from '../../assets/images/about_substation.jpg';
 import aboutPhoto2 from '../../assets/images/about_engineer.jpg';
-import { ShieldCheck } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
   const { t } = useTranslation();

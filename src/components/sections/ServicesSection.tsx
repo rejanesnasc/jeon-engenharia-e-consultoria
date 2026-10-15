@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Wrench } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { ServiceDetailModal } from '../forms/ServiceDetailModal';
 
 import imgAssetMgmt from '../../assets/images/service_asset_mgmt.jpg';

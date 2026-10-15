@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, CheckCircle, Award, ArrowRight } from 'lucide-react';
+import { X, ArrowRight } from 'lucide-react';
 
 interface ServiceDetailModalProps {
   serviceKey: 'asset_management' | 'owners_engineering' | 'fat_inspection' | 'due_diligence' | null;
@@ -19,9 +19,6 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
 
   const title = t(`services.items.${serviceKey}.title`);
   const fullDesc = t(`services.items.${serviceKey}.fullDesc`);
-  const standards = t(`services.items.${serviceKey}.standards`, { returnObjects: true }) as string[];
-  const deliverables = t(`services.items.${serviceKey}.deliverables`, { returnObjects: true }) as string[];
-
   const handleRequestQuote = () => {
     onSelectServiceForProposal(serviceKey);
     onClose();
