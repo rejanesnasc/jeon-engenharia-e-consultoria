@@ -32,7 +32,7 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 
 
 # Como Rodar Localmente
-1. Clonar o repositório: git clone https://github.com/xxxx
+1. Clonar o repositório: git clone https://github.com/xxxx 
 2. Entrar na pasta do projeto: jeon-engenharia-e-consultoria
 3. Instalar dependências: npm install
 4. Rodar o servidor de desenvolvumento: npm run dev
