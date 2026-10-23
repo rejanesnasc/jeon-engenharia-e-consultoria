@@ -14,8 +14,10 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 
 # Principais funcionalidades
 - Internacionalização (PT-BR|EN) com troca de idioma
+- Detalhes de produto com imagens e descrições
 - Listagem de serviços
 - Listagem de eventos
+- Design responsivo e acessível
 - Checkout simplicado para WhataApp
 
 # Recursos Técnicos
@@ -23,36 +25,23 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 - 
 
 # Stack Tecnológica 
-- Framework: React	+ Vite + TypeScript
-- Estilização:
-- Lucide React
+- Framework: React	+ Vite + TypeScript + Node json + Java Script + HTML 
+- Estilização: css
+- Ícones: Lucide React
 - Hospedagem/deploy: Vercel
 
 
 # Como Rodar Localmente
 1. Clonar o repositório: git clone https://github.com/xxxx
-
-2. Entrar na pasta do projeto
-jeon-engenharia-e-consultoria
-
-3. Instalar dependências
-npm install
-
-4. Rodar o servidor de desenvolvumento
-npm run dev
-
-5. Acessar no navegador
-http://localhost:5173/
+2. Entrar na pasta do projeto: jeon-engenharia-e-consultoria
+3. Instalar dependências: npm install
+4. Rodar o servidor de desenvolvumento: npm run dev
+5. Acessar no navegador: http://localhost:5173/
 
 # Rodando Testes
-Executar a todos os testes 
-npx vistest run
-
-Modo watch (desenvolvimento)
-npx vistest
-
-Com interface visual
-npx vitest --ui
+- Executar a todos os testes: npx vistest run
+- Modo watch (desenvolvimento): npx vistest
+- Com interface visual: npx vitest --ui
 
 #Gerar relatório de cobertura
 npx vitest run --coverage
