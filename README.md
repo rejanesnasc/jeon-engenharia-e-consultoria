@@ -22,7 +22,7 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 
 # Recursos Técnicos
 - Sistema de designer Azul Marinho, branco e amarelo
-- 
+  
 
 # Stack Tecnológica 
 - Framework: React	+ Vite + TypeScript + Node json + Java Script + HTML 
@@ -42,9 +42,7 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 - Executar a todos os testes: npx vistest run
 - Modo watch (desenvolvimento): npx vistest
 - Com interface visual: npx vitest --ui
-
-#Gerar relatório de cobertura
-npx vitest run --coverage
+- Gerar relatório de cobertura: npx vitest run --coverage
 
 # Diretrizes de conteúdo
 As atualizações do website devem preservar:
