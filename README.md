@@ -14,7 +14,6 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 
 # Principais funcionalidades
 - Internacionalização (PT-BR|EN) com troca de idioma
-- Detalhes de produto com imagens e descrições
 - Listagem de serviços
 - Listagem de eventos
 - Design responsivo e acessível
@@ -32,17 +31,11 @@ Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
 
 
 # Como Rodar Localmente
-1. Clonar o repositório: git clone https://github.com/xxxx 
+1. Clonar o repositório: git clone https://github.com/rejanesnasc/jeon-engenharia-e-consultoria/
 2. Entrar na pasta do projeto: jeon-engenharia-e-consultoria
 3. Instalar dependências: npm install
 4. Rodar o servidor de desenvolvumento: npm run dev
 5. Acessar no navegador: http://localhost:5173/
-
-# Rodando Testes
-- Executar a todos os testes: npx vistest run
-- Modo watch (desenvolvimento): npx vistest
-- Com interface visual: npx vitest --ui
-- Gerar relatório de cobertura: npx vitest run --coverage
 
 # Diretrizes de conteúdo
 As atualizações do website devem preservar:
@@ -50,7 +43,7 @@ As atualizações do website devem preservar:
 - Uma linguagem clara, objetiva e compatível com o setor de engenharia.
 - A consistência visual e terminológica da marca JEON.
 - A revisão de links, informações de contato e versões para diferentes dispositivos.
-- A acessibilidade e a legibilidade dos conteúdos.
+- A legibilidade dos conteúdos.
 
 # Status
 Website institucional publicado.
