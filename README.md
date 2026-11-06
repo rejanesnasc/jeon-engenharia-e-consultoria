@@ -6,11 +6,7 @@ Este repositório corresponde ao website institucional da JEON Engenharia & Cons
 O website é direcionado a organizações e profissionais do setor elétrico interessados em consultoria e suporte técnico especializado, especialmente no contexto de ativos e infraestrutura de transmissão.
 
 Acesso à versão publicada
-O website pode ser acessado em: https://jeon-engenharia-e-consultoria.vercel.app/
-
-A URL acima corresponde à versão pública hospedada na plataforma Vercel.
-Site publicado: https://jeon-engenharia-e-consultoria.vercel.app/
-
+O website pode ser acessado em: https://www.jeonengenharia.com.br/
 
 # Principais funcionalidades
 - Internacionalização (PT-BR|EN) com troca de idioma
